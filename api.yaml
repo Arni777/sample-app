@@ -20,7 +20,7 @@ metadata:
   labels:
     app: api
 spec:
-  replicas: 8
+  replicas: 3
   selector:
     matchLabels:
       app: api
